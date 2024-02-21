@@ -4,9 +4,9 @@ import { Component } from "@angular/core";
 @Component({
     selector:'tls-server',
     standalone:true,
-    template:`<p>salam</p>`,
-    imports:[]
-
+    imports:[],
+    templateUrl:'./home.component.html',
+    styleUrl:'./home.component.scss',
 
 })
 export class HomeComponent{
