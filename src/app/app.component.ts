@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { HomeComponent } from './+home/home.component';
+import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
+import { ServicesComponent } from './services/services.component';
+import { AboutComponent } from './about/about.component';
 
 @Component({
   selector: 'app-root',
