@@ -1,0 +1,16 @@
+.menu{
+    background-color: black;
+    color: white;
+    & a{
+        text-decoration: none;
+        padding: 10px;
+        text-align: center;
+        border-right: 1px solid white;
+        &:visited{
+            color: white;
+        }
+    }
+}
+.router-class{
+    padding: 10px;
+}
