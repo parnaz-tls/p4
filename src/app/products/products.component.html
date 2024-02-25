@@ -1,9 +1,5 @@
-<div>
-    <app-product/>
-    <app-product/>
-    <app-product/>
-    <app-product/>
-    <app-product/>
-    <app-product/>
-    <app-product/>
+<div class="products">
+    @for (item of products; track $index){
+        <app-product [title]="item.title" [price]="item.price"></app-product>
+    }
 </div>
