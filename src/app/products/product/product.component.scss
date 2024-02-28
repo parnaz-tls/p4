@@ -19,3 +19,9 @@
     display: flex;
     justify-content: space-between;
 }
+.price{
+    display:block
+    & del{
+        color: gray;
+    }
+}

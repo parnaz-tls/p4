@@ -1,12 +1,16 @@
 <div class="product">
     <div class="img-class">
-        <img src={{ProductImage}}>
+        <img src="../../../assets/donuts/pic6.jpg">
+        <!-- <img src={{ProductImage}}> -->
     </div>
     <div class="title-class">
         {{title}}
     </div>
     <div class="details-info">
-        <div class="price">{{price}} $</div>
+        <div class="price">
+            <del>{{offPrice}} $</del>
+            <div>{{price}} $</div> 
+        </div>
         <button class="details">details</button>
     </div>
 </div>
