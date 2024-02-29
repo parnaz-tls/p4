@@ -1,5 +1,5 @@
 <div class="products">
     @for (item of products; track $index){
-        <app-product [title]="item.title" [price]="item.price"></app-product>
+        <app-product [title]="item.title" [price]="item.price" [offPrice]="item.offPrice"></app-product>
     }
 </div>
