@@ -11,5 +11,5 @@ export class ProductComponent {
   @Input() title:string='ProductName'
   @Input() price:number=0
   @Input() offPrice:number=0
-  // @Input() img='ProductImage'
+  @Input() img='ProductImage'
 }
