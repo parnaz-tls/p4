@@ -1,0 +1,79 @@
+.main-form{
+    width: 600px;
+    height: max-content;
+    background-color: #ffffff14;
+    padding: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    text-align: center;
+    &>div{
+        padding-bottom:20px ;
+    }
+    
+}
+.login{
+    font-size: 22px;
+}
+.login-form{
+    text-align: left;
+    justify-content: space-around;
+    &>div{
+        margin-top: 40px;
+    }
+    & input{
+        width:200px;
+        height: 30px;
+        border-radius: 15px;
+        border: 0px;
+        text-align: center;
+        background-color: #ffffff00;
+        color: white;   
+    }
+    & hr{
+        border-radius: 5px;
+    }
+    
+}
+.login-btn{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    & button{
+        width: 120px;
+        height: 35px;
+        background-color: rgb(1, 93, 163);
+        border: 0px;
+        border-radius: 5px;
+        color: white;
+    }
+}
+.or-class{
+    display: flex;
+    justify-content: space-between;
+    & hr{
+        width: 250px;
+        border-radius: 3px;
+
+    } 
+}
+.GoFa-btn{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 20px 0px;
+    & button{
+        width: 250px;
+        height: 35px;
+        background-color: rgba(105, 105, 105, 0.539);
+        border: 0px;
+        border-radius: 5px;
+        color: white;
+    }
+}
+.worning-message{
+    color: red;
+    font-size: 22px;
+}

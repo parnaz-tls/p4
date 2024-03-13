@@ -1,0 +1,41 @@
+<div class="main-form">
+    <div class="login">LOGIN</div>
+    <div class="login-form">
+        <div>
+            <input [(ngModel)]="username" type="text" placeholder="username" />
+        </div>
+        <hr/>
+        <div>
+            <input [(ngModel)]="password" type="password" placeholder="password" />
+        </div>
+        <hr/>
+    </div>
+
+    <div class="login-btn">
+        <div>
+            <input type="checkbox" id="chckbx">
+            <label for="chckbx">keep me loged in</label>
+        </div>
+        <button (click)="check()">Login</button>
+    </div>
+    <div class="or-class">   
+        <div><hr/></div>
+        <div><sup> or </sup></div>
+        <div><hr/></div>
+    </div>
+    <div class="GoFa-btn">
+        <button>Login with Google</button>
+        <button>Login with Facebook</button>
+    </div>
+
+    
+    @if(message!=''){
+        <div class="worning-message">
+            {{message}}
+        </div>
+    }
+    <div>
+        <a>Forgot Password ?</a>
+    </div>
+
+</div>
